@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/fav-TrueMoney.png" type="image/png">
+   <link rel="stylesheet" href="css/vendor.css?_v=20221109195525">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js?_v=20221109195525"></script>
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20221109195525" />
+   <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css?_v=20221109195525" />
+   <link rel="stylesheet" href="css/style.css?_v=20221109195525">
+   <title>TrueMoney</title>
+</head>
+  <body class="page__body">
+    <div>
+      <header class="header">
+   <div class="container header__container">
+      <img src="../img/header__logo.svg" alt="Logo TrueMoney" class="header__logo">
+      <nav class="header__nav">
+        <ul class="list-reset header__list">
+          <li class="header__item"><a href="#about" class="header__link scroll-link">About us</a></li>
+          <li class="header__item"><a href="#credit" class="header__link scroll-link">Maps</a></li>
+          <li class="header__item"><a href="#reviews" class="header__link scroll-link">Blogs</a></li>
+          <li class="header__item"><a href="#news" class="header__link scroll-link">Social media</a></li>
+          <li class="header__item"><a href="#footer" class="header__link scroll-link">Careers</a></li>
+        </ul>
+      </nav>
+      <nav class="header__nav header__nav-mobile">
+        <ul class="list-reset header__list">
+          <li class="header__item"><a href="#about" class="header__link scroll-link">About us</a></li>
+          <li class="header__item"><a href="#credit" class="header__link scroll-link">Maps</a></li>
+          <li class="header__item"><a href="#reviews" class="header__link scroll-link">Blogs</a></li>
+          <li class="header__item"><a href="#news" class="header__link scroll-link">Social media</a></li>
+          <li class="header__item"><a href="#footer" class="header__link scroll-link">Careers</a></li>
+          <li class="header__item">
+            <button class="btn btn-reset header__btn-mobile btn-phone">1800 1234</button>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn btn-reset header__btn btn-phone">1800 1234</button>
+      <button class="header__burger burger-close burger-open" id="burger" aria-label="Кнопка раскрытия меню">
+        <span>toggle menu</span>
+      </button>
+   </div>
+</header>
+      <main class="main">
+        <section class="hero">
+  <div class="hero__container">
+   <div class="hero__left">
+      <button class="btn-reset hero__switch">Switch to the newest and modern digital wallet</button>
+      <h1 class="hero__title">Easy and Fast Payments With&nbsp;True Money</h1>
+      <p class="hero__descr">With integration and well-build digital wallet, control your own cards and list all your payments to pay. Set your own code key to makes all payments done with only one approve action.</p>
+      <div class="hero__find find">
+         <h2 class="find__title">Find the nearest stores in 1 minute</h2>
+         <div class="find__text-wrapper">
+            <p class="find__text">Where?</p>
+            <p class="find__text">Service?</p>
+         </div>
+         <div class="find__wrapper">
+            <ul class="find__list list-reset flex">
+               <li class="find__item">
+                  <button class="find__item-btn find__dropdown-btn" data-path="one" aria-label="Openning button place dropdown section">
+                     Hanoi
+                     <span class="find__item-icon"></span>
+                  </button>
+                  <div class="find__dropdown find__drop" data-target="one">
+                     <div class="find__dropdown-wrap" data-simplebar>
+                        <ul class="find__drop-list list-reset">
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Тинторрето">
+                                 <span class="find__item-text">
+                                    Hanoi
+                                 </span>
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Hawaii">
+                                 Hawaii
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Haifon">
+                                 Haifon
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Kantho">
+                                 Kantho
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Hoshimin">
+                                 Hoshimin
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Danang">
+                                 Danang
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="find__item">
+                  <button class="find__item-btn find__dropdown-btn" data-path="two" aria-label="Openning button service dropdown section">
+                     Loan
+                     <span class="find__item-icon"></span>
+                  </button>
+                  <div class="find__dropdown find__drop" data-target="two">
+                     <div class="find__dropdown-wrap" data-simplebar>
+                        <ul class="find__drop-list list-reset">
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - Моне">
+                                 <span class="find__item-text">
+                                    Loan
+                                 </span>
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - delivery">
+                                 Delivery
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - credit">
+                                 Credit
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - tax">
+                                 Tax
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - custom">
+                                 Custom
+                              </a>
+                           </li>
+                           <li class="find__dropdown-item">
+                              <a href="" class="find__item-link" aria-label="Choice button - help">
+                                 Help
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               </ul>
+            <button class="btn btn-reset find__btn">Find</button>
+         </div>
+      </div>
+      <p class="hero__descr-more">Find more details and learn more about digital wallet <a href="#">here</a></p>
+      <div class="hero__downloads">
+         <ul class="list-reset hero__list">
+            <li class="hero__item"><a href="#" class="hero__link hero__link-appstore"><picture><source srcset="../img/hero__link-appstore.webp" type="image/webp"><img src="../img/hero__link-appstore.png" alt="App Store"></picture></a></li>
+            <li class="hero__item"><a href="#" class="hero__link hero__link-googleplay"><picture><source srcset="../img/hero__link-googleplay.webp" type="image/webp"><img src="../img/hero__link-googleplay.png" alt="Google Play"></picture></a></li>
+         </ul>
+      </div>
+  </div>
+  <div class="hero__right"></div>
+  </div>
+</section>
+ 
+        <section class="about" id="about">
+      <div class="about__container">
+         <div class="about__left">
+            <h2 class="about__title title">About True <span>Money</span></h2>
+            <p class="about__qoute">“Makes investment easy. Anyone can do it with TrueMoney Wallet”</p>
+            <p class="about__descr">TrueMoney Transfer is an international remittance service within the ASEAN region. Recipients can receive money as soon as it is transferred with a consistent exchange rate and a low transaction fee. TrueMoney Transfer is ideal for everyone because both the sender and recipient do not need to have a bank account. It is convenient, quick, and safe, and you can send and receive money from the huge number of operating location in the urban and rural areas.</p>
+            <button class="btn btn-reset about__btn">Read more</button>
+         </div>
+         <div class="about__right"></div>
+      </div>
+</section>
+        <section class="advantages" id="advantages">
+   <div class="container advantages__container">
+      <h2 class="advantages__title title">True <span>Money</span> - What will you get with</h2>
+      <div class="advantages__grid">
+         <ul class="list-reset advantages__list">
+            <li class="advantages__item advantages__item-img1"></li>
+            <li class="advantages__item advantages__item-img2"></li>
+            <li class="advantages__item advantages__item-img3"></li>
+            <li class="advantages__item advantages__item-img4"></li>
+            <li class="advantages__item advantages__item-text1">
+               <h3 class="advantages__subtitle">Pay at 7-Eleven, popular brand chains & much more</h3>
+               <p class="advantages__descr">No more hassle with coins, easily shop, eat and drink with just your phone at 7-Eleven and over 200,000 stores nationwide</p>
+               <a href="#" class="advantages__link">How to Pay</a>
+            </li>
+            <li class="advantages__item advantages__item-text2">
+               <h3 class="advantages__subtitle">Prepaid MasterCard</h3>
+               <p class="advantages__descr">With TrueMoney Wecard, buying apps, games, music, and shopping online is secure and easy without having to use your credit card</p>
+               <a href="#" class="advantages__link">How to use Prepaid MasterCard</a>
+            </li>
+            <li class="advantages__item advantages__item-text3">
+               <h3 class="advantages__subtitle">Buy Internet package</h3>
+               <p class="advantages__descr">Running out of datas? Buy internet package easily even without internet connection available on your phone</p>
+               <a href="#" class="advantages__link">How to use Internet package</a>
+            </li>
+            <li class="advantages__item advantages__item-text4">
+               <h3 class="advantages__subtitle">Money transfer</h3>
+               <p class="advantages__descr">Transfer money in a few seconds either to another TrueMoney Wallet account or to any bank accounts</p>
+               <a href="#" class="advantages__link">How to transfer money to TM-Wallet<br>How to transfer money to bank account</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+        <section class="guarantess">
+   <div class="container guarantess__container">
+      <h2 class="guarantess__title title">True <span>Money</span> - Your Trusted Financial Advisor</h2>
+      <p class="guarantess__descr">Services available at True Money Transfer Operating locations</p>
+      <div class="guarantess__grid">
+         <ul class="list-reset guarantess__list">
+            <li class="guarantess__item guarantess__item1">
+               <div class="guarantess__ico guarantess__ico1"></div>
+               <h3 class="guarantess__subtitle">Convenience</h3>
+               <p class="guarantess__subdescr">Easy to use and ready to pay anywhere, anytime</p>
+            </li>
+            <li class="guarantess__item guarantess__item2">
+               <div class="guarantess__ico guarantess__ico2"></div>
+               <h3 class="guarantess__subtitle">For all lifestyle</h3>
+               <p class="guarantess__subdescr">Variety of services to fulfill your lifestyle</p>
+            </li>
+            <li class="guarantess__item guarantess__item3">
+               <div class="guarantess__ico guarantess__ico3"></div>
+               <h3 class="guarantess__subtitle">Secure</h3>
+               <p class="guarantess__subdescr">Pay with full confidence using protected transactions</p>
+            </li>
+            <li class="guarantess__item guarantess__item4">
+               <div class="guarantess__ico guarantess__ico4"></div>
+               <h3 class="guarantess__subtitle">Inclusive</h3>
+               <p class="guarantess__subdescr">Usable for all mobile operators</p>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+        <section class="credit" id="credit">
+   <div class="container credit__container">
+      <h2 class="credit__title title">True <span>Money</span> Micro Credit - Online Approval Day</h2>
+      <p class="credit__descr">TrueMoney Vietnam and SHB Finance - Finance Company Limited Saigon - Hanoi Commercial Joint Stock Bank<br>cooperate to launch unsecured consumer lending service for customers applying for loans on TrueMoney e-wallet.</p>
+      <div class="credit__wrapper-top">
+         <div class="credit__more">
+            <h3 class="credit__more-quote">Loan for true money users. Emergency revolving line.</h3>
+            <p class="credit__more-descr">The Micro Credit service will end the application for new customers on August 31, 2022.</p>
+            <button class="btn btn-reset credit__more-btn">Read more</button>
+         </div>
+         <ol class="list-reset credit__list-top">
+            <li class="credit__item-top credit__item-top--first"><p><span>0% interest rate:</span> Customers only have to pay a management fee and loan insurance fee in advance at the first payment period.</p></li>
+            <li class="credit__item-top credit__item-top--second"><p><span>Fast approval within 24 hours:</span> Direct disbursement to TrueMoney e-wallet balance account when the application is approved successfully.</p></li>
+            <li class="credit__item-top credit__item-top--third"><p><span>Simple process:</span> Complete operation on smartphones, no need to authenticate at the counter.</p></li>
+         </ol>
+      </div>
+      <div class="credit__wrapper-bottom">
+         <ul class="list-reset credit__list-bottom">
+            <li class="credit__item-bottom">
+               <h3 class="credit__cautions">Requirement</h3>
+               <ul class="credit__cautions-list">
+                  <li class="credit__cautions-item"><p>Own a verified TrueMoney account for 3 months or more</p></li>
+                  <li class="credit__cautions-item"><p>Spend at least 200,000 VND on TrueMoney wallet before the time of loan application</p></li>
+               </ul>
+            </li>
+            <li class="credit__item-bottom">
+               <h3 class="credit__cautions">Procedure</h3>
+               <ul class="credit__cautions-list">
+                  <li class="credit__cautions-item"><p>Register online
+                     through True Money offical website</p></li>
+                  <li class="credit__cautions-item"><p>Register at the merchants available in your area</p></li>
+               </ul>
+            </li>
+            <li class="credit__ico-item"></li>
+         </ul>
+         <form action="#" method="POST" class="credit__form form" id="credit-form">
+            <h3 class="form__title">Register for a consultation with True Money</h3>
+            <div class="form__wrapper">
+               <label for="name" class="form__label">
+                  <input class="form__input input" id="name" type="name" placeholder="Your name">
+               </label>
+               <label for="email" class="form__label">
+                  <input class="form__input input" id="email" type="email" placeholder="Email address">
+               </label>
+            </div>
+            <p class="form__descr">Fill in your contact information so we can send you their estimates (when quoting, businesses only see your job description and city).</p>
+            <div class="form__wrapper">
+               <label for="tel" class="form__label">
+                  <input class="form__input input" id="tel" type="tel" placeholder="Phone number">
+               </label>
+               <label for="text" class="form__label">
+                  <input class="form__input input" id="text" type="text" placeholder="What do you need doing?">
+               </label>
+            </div>
+            <div class="form__address">
+               <span class="form__questions">Where?</span>
+               <label for="address" class="form__label-long">
+                  <input class="form__input-long input" id="address" type="text" placeholder="Address">
+               </label>
+            </div>
+            <div class="form__date-wrapper">
+               <span class="form__questions">When?</span>
+               <div class="form__date">
+                  <label for="date-first" class="form__label-short">
+                     <input class="form__input-short" id="date-first" type="date" value="2022-01-26" required>
+                  </label>
+                  <label for="time-first" class="form__label-short">
+                     <input class="form__input-short" id="time-first" type="time" value="09:00" required>
+                  </label>
+                  <span class="form__date-separate">or</span>
+                  <label for="date-second" class="form__label-short">
+                     <input class="form__input-short" id="date-second" type="date" value="2022-01-26" required>
+                  </label>
+                  <label for="time-second" class="form__label-short">
+                     <input class="form__input-short" id="time-second" type="time" value="09:00" required>
+                  </label>
+               </div>
+            </div>
+            <ol class="form__list">
+               <li class="form__item"><p>The maximum limit is up to 10 million VND, the loan term is up to 6 months.</p></li>
+               <li class="form__item"><p>Require income from only 3 million VND, no need to prove financial or mortgage assets.</p></li>
+               <li class="form__item"><p>The loan is disbursed by SHB Finance - a reputable financial company with an establishment and operation license since 2017 issued by the State Bank of Vietnam.</p></li>
+            </ol>
+            <button class="btn btn-reset form__btn">Request Quotes</button>
+         </form>
+      </div>
+   </div>
+</section>
+        <section class="reviews" id="reviews">
+   <div class="container reviews__container">
+      <h2 class="reviews__title title">True <span>Money</span> Reviews From Customers</h2>
+      <p class="reviews__descr">Over 90% of customers enjoyed using our services</p>
+      <div class="reviews__grid">
+         <ul class="list-reset reviews__list">
+            <li class="reviews__item reviews__item1">
+               <p class="reviews__item-descr">I originally gave this app only two stars but I'm changing my rating to five stars as I've been completely satisfied with using it in the past year. Nice to have an easy contactless payment method at Makro and 7-11. Wish you could somehow get more merchants on board like Big C and Tesco Lotus... And perhaps even BTS, MRT, and ARL.</p>
+               <div class="reviews__user">
+                  <div class="reviews__user-ico reviews__user-ico1"></div>
+                  <strong class="reviews__user-name">Van Nga, 25</strong>
+                  <span class="reviews__user-job">Highschool Teacher</span>
+               </div>
+            </li>
+            <li class="reviews__item reviews__item2">
+               <p class="reviews__item-descr">My roommate introduced me to TrueMoney to get a quick loan of 7 million by registering a motorbike. I am glad that in difficult economic times there is still a reliable financial support service like TrueMoney. All procedures and disbursements are done quickly and I still have a car to continue making a living.</p>
+               <div class="reviews__user">
+                  <div class="reviews__user-ico reviews__user-ico2"></div>
+                  <strong class="reviews__user-name">Albert, 36</strong>
+                  <span class="reviews__user-job">Software Engineering</span>
+               </div>
+            </li>
+            <li class="reviews__item reviews__item3">
+               <p class="reviews__item-descr">Having heard of TrueMoney from a colleague, I came to borrow 10 million by holding jewelry to contribute to the money saved earlier. Unexpectedly, the steps to borrow at TrueMoney system are very easy and fast. All procedures are fully answered by the staff. I am very satisfied because I only waited 15 minutes to have the money disbursed to pay the school fees for my children.</p>
+               <div class="reviews__user">
+                  <div class="reviews__user-ico reviews__user-ico3"></div>
+                  <strong class="reviews__user-name">My Xuan, 28</strong>
+                  <span class="reviews__user-job">Housewife</span>
+               </div>
+            </li>
+            <li class="reviews__item reviews__item4">
+               <p class="reviews__item-descr">When I knew I was stuck with capital, my partner introduced the True Money pawn system to me. When I arrived at the True Money store near my house, I was quite surprised by the attentive and welcoming service style of the staff. I took a car with a loan of 100 million for 1 month. And I am very reassured that True Money has a very professional car parking system and customer property preservation process.</p>
+               <div class="reviews__user">
+                  <div class="reviews__user-ico reviews__user-ico4"></div>
+                  <strong class="reviews__user-name">Anh Duc, 42</strong>
+                  <span class="reviews__user-job">Businessman</span>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+        <section class="news" id="news">
+   <div class="container news__container">
+      <h2 class="news__title title">True <span>Money</span> - Blogs & News</h2>
+      <div class="news__wrapper">
+         <div class="swiper-container news__swiper-container">
+            <div class="swiper-wrapper news__swiper-wrapper swiper">
+               <div class="swiper-slide news__swiper-item swiper-slide--1">
+                  <div class="swiper__slide-top swiper__slide-top1"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY VIETNAM IS AWARDED TO WIN THE AWARD “E-wallet of the year – 2021” voted for by THE ASIAN BANKING & FINANCE MAGAZINE</h3>
+                     <p class="swiper__slide-descr">At the last Retail Banking Award 2021, TrueMoney Vietnam was honored to receive the award for the "Digital Wallet Initiative of the Year" category.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--2">
+                  <div class="swiper__slide-top swiper__slide-top2"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">CREDIT CONSULTANT LOAN, ONLINE APPROVAL DAY</h3>
+                     <p class="swiper__slide-descr">TrueMoney Vietnam and SHB Finance - Finance Company Limited Saigon - Hanoi Commercial Joint Stock Bank cooperate to launch unsecured consumer lending service for customers applying for loans on TrueMoney e-wallet.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--3">
+                  <div class="swiper__slide-top swiper__slide-top3"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY OFFICIALLY Integrate ON TAPTAP – GOLDEN APP IN THE VILLAGE ACCURATE-EXCHANGE POINTS</h3>
+                     <p class="swiper__slide-descr">This September, TrueMoney has officially integrated on TAPTAP application, making payment - accumulating points - redeeming offers easily on the same application.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--4">
+                  <div class="swiper__slide-top swiper__slide-top1"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY VIETNAM IS AWARDED TO WIN THE AWARD “E-wallet of the year – 2021” voted for by THE ASIAN BANKING & FINANCE MAGAZINE</h3>
+                     <p class="swiper__slide-descr">At the last Retail Banking Award 2021, TrueMoney Vietnam was honored to receive the award for the "Digital Wallet Initiative of the Year" category.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--5">
+                  <div class="swiper__slide-top swiper__slide-top2"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">CREDIT CONSULTANT LOAN, ONLINE APPROVAL DAY</h3>
+                     <p class="swiper__slide-descr">TrueMoney Vietnam and SHB Finance - Finance Company Limited Saigon - Hanoi Commercial Joint Stock Bank cooperate to launch unsecured consumer lending service for customers applying for loans on TrueMoney e-wallet.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--6">
+                  <div class="swiper__slide-top swiper__slide-top3"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY OFFICIALLY Integrate ON TAPTAP – GOLDEN APP IN THE VILLAGE ACCURATE-EXCHANGE POINTS</h3>
+                     <p class="swiper__slide-descr">This September, TrueMoney has officially integrated on TAPTAP application, making payment - accumulating points - redeeming offers easily on the same application. TAPTAP will bring experience points and attractive promotions to loyal customers of partner brands.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--7">
+                  <div class="swiper__slide-top swiper__slide-top1"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY VIETNAM IS AWARDED TO WIN THE AWARD “E-wallet of the year – 2021” voted for by THE ASIAN BANKING & FINANCE MAGAZINE</h3>
+                     <p class="swiper__slide-descr">At the last Retail Banking Award 2021, TrueMoney Vietnam was honored to receive the award for the "Digital Wallet Initiative of the Year" category.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--8">
+                  <div class="swiper__slide-top swiper__slide-top2"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">CREDIT CONSULTANT LOAN, ONLINE APPROVAL DAY</h3>
+                     <p class="swiper__slide-descr">TrueMoney Vietnam and SHB Finance - Finance Company Limited Saigon - Hanoi Commercial Joint Stock Bank cooperate to launch unsecured consumer lending service for customers applying for loans on TrueMoney e-wallet.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--9">
+                  <div class="swiper__slide-top swiper__slide-top3"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY OFFICIALLY Integrate ON TAPTAP – GOLDEN APP IN THE VILLAGE ACCURATE-EXCHANGE POINTS</h3>
+                     <p class="swiper__slide-descr">This September, TrueMoney has officially integrated on TAPTAP application, making payment - accumulating points - redeeming offers easily on the same application. TAPTAP will bring experience points and attractive promotions to loyal customers of partner brands.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--10">
+                  <div class="swiper__slide-top swiper__slide-top1"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY VIETNAM IS AWARDED TO WIN THE AWARD “E-wallet of the year – 2021” voted for by THE ASIAN BANKING & FINANCE MAGAZINE</h3>
+                     <p class="swiper__slide-descr">At the last Retail Banking Award 2021, TrueMoney Vietnam was honored to receive the award for the "Digital Wallet Initiative of the Year" category.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--11">
+                  <div class="swiper__slide-top swiper__slide-top2"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">CREDIT CONSULTANT LOAN, ONLINE APPROVAL DAY</h3>
+                     <p class="swiper__slide-descr">TrueMoney Vietnam and SHB Finance - Finance Company Limited Saigon - Hanoi Commercial Joint Stock Bank cooperate to launch unsecured consumer lending service for customers applying for loans on TrueMoney e-wallet.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+               <div class="swiper-slide news__swiper-item swiper-slide--12">
+                  <div class="swiper__slide-top swiper__slide-top3"></div>
+                  <div class="swiper__slide-bottom">
+                     <h3 class="swiper__slide-title">TRUEMONEY OFFICIALLY Integrate ON TAPTAP – GOLDEN APP IN THE VILLAGE ACCURATE-EXCHANGE POINTS</h3>
+                     <p class="swiper__slide-descr">This September, TrueMoney has officially integrated on TAPTAP application, making payment - accumulating points - redeeming offers easily on the same application. TAPTAP will bring experience points and attractive promotions to loyal customers of partner brands.</p>
+                     <button class="btn btn-reset swiper__slide-btn">Read more</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-pagination news__swiper-pagination"></div>
+      </div>
+
+   </div>
+</section>
+        <section class="partners">
+   <div class="container partners__container">
+      <h2 class="partners__title title">True <span>Money</span> - We are trusted by top partners</h2>
+      <div class="partners__wrapper">
+         <div class="swiper-container partners__swiper-container">
+            <div class="swiper-wrapper partners__swiper-wrapper swiper">
+               <div class="swiper-slide partners__swiper-item partners__swiper-item1 swiper-slide--1"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item2 swiper-slide--2"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item3 swiper-slide--3"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item4 swiper-slide--4"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item5 swiper-slide--5"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item6 swiper-slide--6"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item1 swiper-slide--7"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item2 swiper-slide--8"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item3 swiper-slide--9"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item4 swiper-slide--10"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item5 swiper-slide--11"></div>
+               <div class="swiper-slide partners__swiper-item partners__swiper-item6 swiper-slide--12"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+        <section class="faq">
+   <div class="container faq__container">
+      <h2 class="faq__title title">Contact True <span>Money</span></h2>
+      <p class="faq__descr">Have question? Want to share your thoughts? Talk to us</p>
+      <div class="faq__wrapper">
+         <button class="btn btn-reset faq__btn faq__btn-transparent">READ OUR F.A.Q</button>
+         <button class="btn btn-reset faq__btn">GET IN TOUCH</button>
+      </div>
+   </div>
+</section>
+      </main>
+      <footer class="footer" id="footer">
+   <div class="container footer__container">
+      <div class="footer__signup">
+         <h3 class="footer__title">Be the first to know</h3>
+         <p class="footer__descr">Subscribe to stay in the loop on new 
+            product launches, promotions, and more.</p>
+         <form id="form" class="footer__form">
+            <label for="signup" class="footer__label">
+               <input class="footer__input" type="email" name="signup" id="signup" placeholder="Drop your email address here">
+            </label>
+         </form>
+         <button class="btn btn-reset footer__btn">Sign up</button>
+         <div class="footer__downloads">
+            <ul class="list-reset footer__list-downloads">
+               <li class="footer__item-downloads"><a href="#" class="footer__link-downloads footer__link-appstore"><picture><source srcset="../img/hero__link-appstore.webp" type="image/webp"><img src="../img/hero__link-appstore.png" alt="App Store"></picture></a></li>
+               <li class="footer__item-downloads"><a href="#" class="footer__link-downloads footer__link-googleplay"><picture><source srcset="../img/hero__link-googleplay.webp" type="image/webp"><img src="../img/hero__link-googleplay.png" alt="Google Play"></picture></a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer__menu">
+         <div class="footer__menu-left">
+            <img src="../img/header__logo.svg" alt="Logo TrueMoney" class="footer__logo">
+            <nav class="footer__nav">
+               <ul class="list-reset footer__list">
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Home</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">About us</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Partners</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Features</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Contact Us</a>
+                  </li>
+               </ul>
+             </nav>
+         </div>
+         <div class="footer__menu-right">
+            <div class="footer__menu-right--wrapper">
+               <h3 class="footer__menu-right--title">Developers</h3>
+               <ul class="list-reset footer__list">
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">API Docs</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Support</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Bug Bounty</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__menu-right--wrapper">
+               <h3 class="footer__menu-right--title">Services</h3>
+               <ul class="list-reset footer__list">
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Personal</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#" class="footer__link">Business</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="footer__social">
+         <div class="footer__social-documents">
+            <h3 class="footer__social-title">Legal</h3>
+            <ul class="list-reset footer__list">
+               <li class="footer__item">
+                  <a href="#" class="footer__link">Privacy Statement</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link">Cookies Settings</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link">Terms of Use</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link">Terms of Sale</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link">CA Transparency Act</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link"> CA Cleaning Product Data</a>
+               </li>
+               <li class="footer__item">
+                  <a href="#" class="footer__link">Commitment to Accessibility</a>
+               </li>
+            </ul>
+         </div>
+         <span class="footer__decorline"></span>
+         <ul class="list-reset footer__list-social">
+            <li class="footer__item-social">
+               <a href="#" class="footer__link-social footer__link-fb"></a>
+            </li>
+            <li class="footer__item-social">
+               <a href="#" class="footer__link-social footer__link-inst"></a>
+            </li>
+            <li class="footer__item-social">
+               <a href="#" class="footer__link-social footer__link-yt"></a>
+            </li>
+            <li class="footer__item-social">
+               <a href="#" class="footer__link-social footer__link-tw"></a>
+            </li>
+         </ul>
+         <button class="btn btn-reset footer__btn-number btn-phone">1800 1234</button>
+      </div>
+   </div>
+   <p class="footer__copyright">© 2021 TrueMoney Vietnam. Copyright registered.</p>
+</footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20221109195525"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js?_v=20221109195525"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js?_v=20221109195525"></script>
+    <script src="js/vendor/inputmask.min.js?_v=20221109195525"></script>
+    <script src="js/app.min.js?_v=20221109195525"></script>
+  </body>
+</html>
